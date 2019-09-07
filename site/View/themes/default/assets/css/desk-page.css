@@ -1,0 +1,45 @@
+.desk-page__container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1100px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.desk-page__title {
+  padding-top: 20px;
+  padding-left: 10px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.desk-page__content {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 20px;
+}
+
+.desk-page__page-item {
+  width: 200px;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.desk-page__title-edit-button {
+  display: inline-flex;
+}
+
+.desk-page__title-edit-button svg {
+  width: 20px;
+  height: 20px;
+  fill: #3898e5;
+}
+
+@media (max-width:800px) {
+  .desk-page__page-item {
+    width: 100%;
+  }
+}
+

@@ -1,0 +1,8 @@
+.desks-list__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.desks-list__item {
+  width: 100%;
+}
