@@ -1,0 +1,10 @@
+.cards__items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cards__one-item {
+    width: 25%;
+    padding: 20px;
+    box-sizing: border-box;
+}

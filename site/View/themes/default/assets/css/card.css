@@ -1,0 +1,82 @@
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card__inner {
+    padding-bottom: 100%;
+    position: relative;
+}
+
+.card__content {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card__icon {
+    width: 40%;
+}
+
+.card__icon icon {
+    
+}
+
+.card__provider {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.card__title {
+    position: absolute;
+    bottom: 14px;
+    left: 10px;
+    text-align: center;
+}
+
+.card__progress {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 4px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.card__price {
+    color: white;
+}
+
+.card__button {
+    height: 30px;
+    font-size: 14px;
+    white-space: nowrap;
+    cursor: pointer;
+    background-color: #0070c9;
+    background: linear-gradient(#42a1ec, #0070c9);
+    border-color: #07c;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+    color: #fff;
+    border: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 80px;
+    
+}
+
+.card__details-link {
+    color: white;
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+}

@@ -1,0 +1,9 @@
+.header-block {
+    background-color: #a9d1eb;
+}
+
+.header-block__columns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

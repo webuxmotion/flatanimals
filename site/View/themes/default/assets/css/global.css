@@ -5,3 +5,14 @@
 .g-pt-30 {
   padding-top: 30px;
 }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.block {
+  padding: 0 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
