@@ -7,6 +7,11 @@
 
 <?php 
   $data['ctx'] = $this;
+  $this->theme->block('hero', $data);
+?>
+
+<?php 
+  $data['ctx'] = $this;
   $data['cards'] = [
     [
       "id" => 1,

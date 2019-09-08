@@ -3,7 +3,8 @@
         <div class="header-block__columns">
             <div class="header-block__column">
                 <a href="/" class="logo">
-                    Flat Animals
+                    <img class="logo__img" src="<?=Asset::getUrl();?>img/main-logo.png">
+                    <span class="logo__text">Flat Animals</span>
                 </a>
             </div>
             <div class="header-block__column">

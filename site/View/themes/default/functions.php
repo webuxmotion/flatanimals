@@ -7,6 +7,7 @@ Asset::css('css/header-block');
 Asset::css('css/logo');
 Asset::css('css/cards');
 Asset::css('css/card');
+Asset::css('css/hero');
 Asset::css('css/profile-button');
 
 Asset::css('css/sidebar');
