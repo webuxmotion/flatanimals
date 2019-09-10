@@ -1,0 +1,12 @@
+.page404__img-wrap {
+    text-align: center;
+}
+
+.page404__img {
+    width: 400px;
+    max-width: 100%;
+}
+
+.page404__p--text-center {
+    text-align: center;
+}

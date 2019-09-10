@@ -20,7 +20,8 @@
       "color" => '#9d9d9d',
       "icon" => getIcon('dog'),
       "title" => "20/2000",
-      "progress" => "90"
+      "progress" => "90",
+      "href" => "/lotteries/9"
     ],
     [
       "id" => 2,
@@ -29,7 +30,8 @@
       "color" => '#f6a851',
       "icon" => getIcon('bird'),
       "title" => "20/2000",
-      "progress" => "10"
+      "progress" => "10",
+      "href" => "/lotteries/9"
     ],
     [
       "id" => 3,
@@ -38,7 +40,8 @@
       "color" => '#f7cade',
       "icon" => getIcon('bird'),
       "title" => "20/2000",
-      "progress" => "80"
+      "progress" => "80",
+      "href" => "/lotteries/9"
     ],
     [
       "id" => 1,
@@ -47,7 +50,8 @@
       "color" => '#a76d5f',
       "icon" => getIcon('bird'),
       "title" => "20/2000",
-      "progress" => "10"
+      "progress" => "10",
+      "href" => "/lotteries/9"
     ],
     [
       "id" => 2,
@@ -56,7 +60,8 @@
       "color" => '#54534f',
       "icon" => getIcon('bird'),
       "title" => "20/2000",
-      "progress" => "30"
+      "progress" => "30",
+      "href" => "/lotteries/9"
     ],
     [
       "id" => 3,
@@ -65,7 +70,8 @@
       "color" => '#9d9d9d',
       "icon" => getIcon('bird'),
       "title" => "20/2000",
-      "progress" => "50"
+      "progress" => "50",
+      "href" => "/lotteries/9"
     ]
   ];
 

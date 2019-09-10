@@ -8,7 +8,7 @@
                 </a>
             </div>
             <div class="header-block__column">
-                <a href="/" class="profile-button">
+                <a href="/profile" class="profile-button">
                     
                 </a>
             </div>

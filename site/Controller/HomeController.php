@@ -15,6 +15,16 @@ class HomeController extends SiteController {
     $this->view->render('index');
   }
 
+  public function checkoutPage() {
+
+    $this->view->render('checkout');
+  }
+
+  public function payedPage() {
+
+    $this->view->render('payed');
+  }
+
   public function webpackTest() {
     $this->view->render('webpack-test');
   }

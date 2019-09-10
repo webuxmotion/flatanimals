@@ -1,0 +1,86 @@
+.lottery__content {
+    display: flex;
+}
+
+.lottery__column p {
+    margin: 0;
+}
+
+.lottery__column--left {
+    width: 300px;
+}
+
+.lottery__column ul {
+    list-style: none;
+}
+
+.lottery__descContent {
+    font-size: 20px;
+}
+
+
+.lottery__descItem {
+    padding-bottom: 20px;
+}
+
+.lottery__descTitle {
+    padding-bottom: 5px;
+}
+
+.lottery__counter {
+    display: flex;
+    align-items: center;
+}
+
+.lottery__counterCell {
+    padding: 5px;
+}
+
+.lottery__counterButton {
+    width: 30px;
+    height: 30px;
+    border: 1px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 26px;
+    user-select: none;
+}
+
+.lottery__counterCount {
+    font-size: 40px;
+    font-weight: bold;
+    padding: 0 5px;
+}
+
+.lottery__checkoutButton {
+    height: 40px;
+    font-size: 14px;
+    white-space: nowrap;
+    cursor: pointer;
+    background-color: #0070c9;
+    background: linear-gradient(#42a1ec, #0070c9);
+    border-color: #07c;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+    color: #fff;
+    border: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 80px;
+}
+
+.lottery__subheader {
+    margin: 0;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.lottery__benefitsParagraph {
+    font-size: 24px;
+    margin-bottom: 8px !important;
+}

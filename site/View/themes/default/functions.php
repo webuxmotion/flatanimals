@@ -9,6 +9,9 @@ Asset::css('css/cards');
 Asset::css('css/card');
 Asset::css('css/hero');
 Asset::css('css/profile-button');
+Asset::css('css/page-404');
+Asset::css('css/lottery');
+Asset::css('css/checkout');
 
 Asset::css('css/sidebar');
 Asset::css('css/grid');

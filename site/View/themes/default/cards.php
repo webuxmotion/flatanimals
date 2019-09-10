@@ -1,40 +1,17 @@
 <div class="cards block">
     <div class="container">
+        <div class="block__header">
+            <h2>Lotteries List:</h2>
+        </div>
         <div class="cards__items">
             
             <?php foreach($cards as $item) : ?>
                 <div class="cards__one-item">
                     
-                    <div class="card" style="background-color: <?=isset($item['color']) ? $item['color'] : "gray" ?>">
-                        <div class="card__inner">
-                            <div class="card__content">
-
-                                <div class="card__provider">
-                                    <?=$item['provider']?>
-                                </div>
-
-                                <div class="card__icon">
-                                    <?=$item['icon']?>
-                                </div>
-
-                                <div class="card__title">
-                                    <?=$item['title']?>
-                                </div>
-
-                                <div class="card__price">
-                                    20 UAH
-                                </div>
-
-                                <a href="/" class="card__details-link">
-                                    Benefits
-                                </a>
-
-                                <a href="/" class="card__button">buy</a>
-
-                                <div class="card__progress" style="width: <?=$item['progress']?>%"></div>
-                            </div>
-                        </div>
-                    </div>
+                    <?php
+                        $data['item'] = $item;
+                        $ctx->theme->block('card', $data);
+                    ?>
 
                 </div>
                 

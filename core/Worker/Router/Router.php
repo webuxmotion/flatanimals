@@ -35,20 +35,26 @@ class Router {
         throw new \Exception("Controller <b>$controller</b> did not found!", 404);
       }
     } else {
+
+      
       throw new \Exception('Page not found', 404);
     }
   }
   public static function matchRoute($url) {
+    
     foreach (self::$routes as $pattern => $route) {
+
       if (preg_match("#{$pattern}#", $url, $matches)) {
         foreach ($matches as $k => $v) {
           if (is_string($k)) {
             $route[$k] = $v;
           }
         }
+        
         if (empty($route['action'])) {
           $route['action'] = 'index';
         }
+        
         if (!isset($route['prefix'])) {
           $route['prefix'] = '';
         } else {
@@ -57,6 +63,7 @@ class Router {
         $route['controller'] = self::upperCamelCase($route['controller']);
         self::$route = $route;
         return true;
+
       }
     }
     return false;

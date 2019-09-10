@@ -16,3 +16,14 @@
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
+.block__header {
+  font-size: 20px;
+  margin: 0;
+}
+
+.block__header h2 {
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}

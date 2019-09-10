@@ -8,7 +8,7 @@
         <div class="container hero__container">
             <div class="hero__main">
                 <h1 class="hero__title">Transparent Lottery for everyone</h1>
-                <p class="hero__description">Look for interesting bonuses from providers</p>
+                <p class="hero__description" style="max-width: 400px">We want to build a transparent platform which helps conducting a safe and transparent lotteries.</p>
             </div>
         </div>
     </div>
